@@ -15,10 +15,10 @@ body {
 }
 
 .logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: var(--text-decoration);
@@ -56,9 +56,6 @@ ul {
 
 .button-style {
   background: #4d5ae5;
-  border-radius: 4px;
-  width: 169px;
-  height: 56px;
   font-weight: var(--font-weight);
   letter-spacing: 0.04em;
   color: #ffffff;
@@ -110,7 +107,6 @@ ul > li > a {
 
 .tabs-portfolio {
   background-color: #f4f4fd;
-  border: 1px solid #e7e9fc;
   color: #4d5ae5;
   letter-spacing: 0.04em;
   font-weight: var(--font-weight);
@@ -121,6 +117,13 @@ ul > li > a {
 .tabs-portfolio:hover,
 .tabs-portfolio:focus {
   background-color: #404bbf;
-  border-radius: 4px;
+  color: #ffffff;
+}
+
+.studio-black {
+  color: #000000;
+}
+
+.studio-white {
   color: #ffffff;
 }
