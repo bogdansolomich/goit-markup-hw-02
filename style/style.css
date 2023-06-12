@@ -1,0 +1,124 @@
+:root {
+  --text-decoration: none;
+  --font-weight: 500;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  line-height: 24px;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+}
+
+.logo {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: var(--text-decoration);
+  color: #4d5ae5;
+}
+
+.nav-link {
+  font-weight: var(--font-weight);
+  color: #2e2f42;
+  text-decoration: var(--text-decoration);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.contacts-list {
+  font-size: var(--font-size);
+  color: #434455;
+  text-decoration: var(--text-decoration);
+}
+
+.hero {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.dark-bg,
+.footer-bg {
+  background-color: #2e2f42;
+}
+
+.button-style {
+  background: #4d5ae5;
+  border-radius: 4px;
+  width: 169px;
+  height: 56px;
+  font-weight: var(--font-weight);
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.features-list > li > h3 {
+  color: #2e2f42;
+  font-weight: var(--font-weight);
+  font-size: 20px;
+}
+
+.features-list > li > p {
+  color: #434455;
+}
+
+section > h2 {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.our-team-section {
+  background-color: #f4f4fd;
+}
+
+.names-list {
+  font-weight: var(--font-weight);
+  color: #2e2f42;
+  font-size: 20px;
+}
+
+.names-list > p {
+  color: #434455;
+}
+
+.footer-bg > p {
+  color: #f4f4fd;
+}
+
+ul > li > a {
+  text-decoration: none;
+  color: #434455;
+  font-style: normal;
+}
+
+.tabs-portfolio {
+  background-color: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  color: #4d5ae5;
+  letter-spacing: 0.04em;
+  font-weight: var(--font-weight);
+  cursor: pointer;
+}
+
+.active,
+.tabs-portfolio:hover,
+.tabs-portfolio:focus {
+  background-color: #404bbf;
+  border-radius: 4px;
+  color: #ffffff;
+}
