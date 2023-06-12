@@ -4,6 +4,18 @@
   --span-color: #2e2f42;
 }
 
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #404bbf;
+}
+
+.link:focus {
+color: #404bbf;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
