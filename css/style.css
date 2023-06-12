@@ -8,12 +8,8 @@
   text-decoration: none;
 }
 
-.link:hover {
+.link:hover, .link:focus {
   color: #404bbf;
-}
-
-.link:focus {
-color: #404bbf;
 }
 
 body {
