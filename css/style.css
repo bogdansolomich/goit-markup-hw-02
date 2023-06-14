@@ -72,10 +72,11 @@ ul {
   cursor: pointer;
   font-size: 16px;
   line-height:1.5;
+  font-family: "Roboto", sans-serif;
 }
 
 .button-style:hover,
-.button-style :focus {
+.button-style:focus {
   background-color: #404BBF;
 }
 
@@ -85,15 +86,11 @@ ul {
   font-size: 20px;
 }
 
-.features-list > li > p {
-  color: #434455;
-}
-
 .our-team {
   text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.11;
   text-align: center;
   color: #2e2f42;
   letter-spacing: 0.02em;
@@ -107,10 +104,8 @@ ul {
   font-weight: var(--font-weight);
   color: #2e2f42;
   font-size: 20px;
-}
-
-.names-list > p {
-  color: #434455;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .footer-bg > p {
@@ -129,6 +124,9 @@ ul > li > a {
   letter-spacing: 0.04em;
   font-weight: var(--font-weight);
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .tabs-portfolio:hover,
@@ -155,4 +153,9 @@ ul > li > a {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.activity {
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
