@@ -55,6 +55,8 @@ ul {
   font-size: 56px;
   text-align: center;
   color: #ffffff;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 .dark-bg,
@@ -68,6 +70,13 @@ ul {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  font-size: 16px;
+  line-height:1.5;
+}
+
+.button-style:hover,
+.button-style :focus {
+  background-color: #404BBF;
 }
 
 .features-list > li > h3 {
@@ -84,9 +93,10 @@ ul {
   text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.5;
+  line-height: 1.2;
   text-align: center;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 
 .our-team-section {
@@ -137,4 +147,12 @@ ul > li > a {
 
 .header-contacts {
   font-style: normal;
+}
+
+.paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
