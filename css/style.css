@@ -1,89 +1,101 @@
 :root {
-  --text-decoration: none;
-  --font-weight: 500;
   --span-color: #2e2f42;
+  --color-body: #434455;
+  --color-hover: #404bbf;
+  --logo-color: #4d5ae5;
+  --hero-color: #ffffff;
+  --studio-color: #f4f4fd;
 }
 
 .link {
   text-decoration: none;
 }
 
-.link:hover, .link:focus {
-  color: #404bbf;
-}
-
 body {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  line-height: 1.5;
   font-size: 16px;
-  letter-spacing: 0.02em;
-  font-weight: 400;
-  color: #434455;
-  background-color: #FFFFFF;
 }
 
-.logo {
+.logo-link {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: var(--text-decoration);
-  color: #4d5ae5;
+  color: var(--logo-color);
 }
 
 .nav-link {
-  font-weight: var(--font-weight);
-  color: #2e2f42;
-  text-decoration: var(--text-decoration);
+  font-weight: 500;
+  color: var(--span-color);
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--color-hover);
 }
 
 ul {
   list-style-type: none;
 }
 
-.contacts-list {
-  font-size: var(--font-size);
-  color: #434455;
-  text-decoration: var(--text-decoration);
+.contacts-link {
+  font-size: 16px;
+  color: var(--color-body);
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+
+.perehid {
+  color: var(--color-body);
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--color-hover);
 }
 
 .hero {
   font-weight: 700;
   font-size: 56px;
   text-align: center;
-  color: #ffffff;
+  color: var(--hero-color);
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
 
 .dark-bg,
 .footer-bg {
-  background-color: #2e2f42;
+  background-color: var(--span-color);
 }
 
 .button-style {
-  background: #4d5ae5;
-  font-weight: var(--font-weight);
+  background: var(--logo-color);
+  font-weight: 500;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--hero-color);
   cursor: pointer;
   font-size: 16px;
-  line-height:1.5;
-  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
 }
 
 .button-style:hover,
 .button-style:focus {
-  background-color: #404BBF;
+  background-color: var(--color-hover);
 }
 
-.features-list > li > h3 {
-  color: #2e2f42;
-  font-weight: var(--font-weight);
+.activity {
+  color: var(--span-color);
+  font-weight: 500;
   font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .our-team {
@@ -92,74 +104,72 @@ ul {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  color: #2e2f42;
+  color: var(--span-color);
   letter-spacing: 0.02em;
 }
 
 .our-team-section {
-  background-color: #f4f4fd;
+  background-color: var(--studio-color);
 }
 
 .names-list {
-  font-weight: var(--font-weight);
-  color: #2e2f42;
+  font-weight: 500;
+  color: var(--span-color);
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
-.footer-bg > p {
-  color: #f4f4fd;
-}
-
-ul > li > a {
-  text-decoration: none;
-  color: #434455;
-  font-style: normal;
-}
-
 .tabs-portfolio {
-  background-color: #f4f4fd;
-  color: #4d5ae5;
+  background-color: var(--studio-color);
+  color: var(--logo-color);
   letter-spacing: 0.04em;
-  font-weight: var(--font-weight);
+  font-weight: 500;
   cursor: pointer;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
 
 .tabs-portfolio:hover,
 .tabs-portfolio:focus {
-  background-color: #404bbf;
-  color: #ffffff;
+  background-color: var(--color-hover);
+  color: var(--hero-color);
 }
 
 .studio-black {
   color: var(--span-color);
+  letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 
 .studio-white {
-  color: #f4f4fd;
+  color: var(--studio-color);
+  letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 
 .header-contacts {
   font-style: normal;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 
 .paragraph {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.activity {
-  line-height: 1.2;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--color-body);
 }
 
+.paragraph-white {
+  color: var(--studio-color);
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  font-size: 16px;
+}
 .rebus {
-  background-color: #FFFFFF;
+  background-color: var(--hero-color);
+  letter-spacing: 0.02em;
+  line-height: 1.5;
 }
